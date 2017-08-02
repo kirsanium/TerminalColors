@@ -6,7 +6,15 @@
     <bookmark url="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorColorsManagerImpl.class" description="public void addColorsScheme(@NotNull EditorColorsS..." line="270" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b2d72af-8942-4329-a1c4-611ce1b1f1e3" name="Default" comment="" />
+    <list default="true" id="8b2d72af-8942-4329-a1c4-611ce1b1f1e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ImportConsoleColorScheme1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/ImportedConsoleColorScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/untitled1/Test.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/ImportConsoleColorScheme.class" afterPath="$PROJECT_DIR$/out/production/untitled1/ImportConsoleColorScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" afterPath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,21 +30,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <file leaf-file-name="EditorColorsScheme.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorsScheme.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1207">
-              <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            <state relative-caret-position="96">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditorColorsScheme.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorsScheme.class">
+      <file leaf-file-name="ANSIColoredConsoleColorsPage.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ANSIColoredConsoleColorsPage.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="102" column="9" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributesFlyweight.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/markup/AttributesFlyweight.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorSchemeImporter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorSchemeActions.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="80" column="60" lean-forward="true" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchemeManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchemeNameGenerator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/SchemeNameGenerator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="18" column="102" lean-forward="false" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -45,47 +103,20 @@
       <file leaf-file-name="AbstractColorsScheme.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="343" column="52" lean-forward="false" selection-start-line="343" selection-start-column="52" selection-end-line="343" selection-end-column="52" />
+            <state relative-caret-position="116">
+              <caret line="336" column="16" lean-forward="false" selection-start-line="336" selection-start-column="16" selection-end-line="336" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Element.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/Element.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="543" column="31" lean-forward="true" selection-start-line="543" selection-start-column="31" selection-end-line="543" selection-end-column="31" />
-              <folding>
-                <element signature="e#16347#16348#0" expanded="true" />
-                <element signature="e#16416#16417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentList.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/ContentList.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="219" column="32" lean-forward="false" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
-              <folding>
-                <element signature="e#7878#7879#0" expanded="true" />
-                <element signature="e#7935#7936#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportConsoleColorScheme.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImportConsoleColorScheme.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImportConsoleColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="267" column="12" lean-forward="true" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#parseColorschemeFile#0;class#ImportConsoleColorScheme#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,131 +125,9 @@
       <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Color.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-443">
-              <caret line="306" column="62" lean-forward="true" selection-start-line="306" selection-start-column="62" selection-end-line="306" selection-end-column="62" />
-              <folding>
-                <element signature="docComment;class#Color#0" expanded="false" />
-                <element signature="docComment;field#white#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#WHITE#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#lightGray#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#LIGHT_GRAY#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#gray#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#GRAY#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#darkGray#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#DARK_GRAY#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#black#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#BLACK#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#red#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#RED#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#pink#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#PINK#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#orange#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#ORANGE#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#yellow#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#YELLOW#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#green#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#GREEN#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#magenta#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#MAGENTA#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#cyan#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#CYAN#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#blue#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#BLUE#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#value#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#frgbvalue#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#fvalue#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#falpha#0;class#Color#0" expanded="false" />
-                <element signature="docComment;field#cs#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#initIDs#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#testColorValueRange#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#testColorValueRange#1;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#1;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#2;class#Color#0" expanded="false" />
-                <element signature="e#11984#11985#0" expanded="true" />
-                <element signature="e#12024#12025#0" expanded="true" />
-                <element signature="docComment;method#Color#3;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#4;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#5;class#Color#0" expanded="false" />
-                <element signature="docComment;method#Color#6;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getRed#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getGreen#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getBlue#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getAlpha#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getRGB#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#brighter#0;class#Color#0" expanded="false" />
-                <element signature="method#brighter#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#darker#0;class#Color#0" expanded="false" />
-                <element signature="method#darker#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#hashCode#0;class#Color#0" expanded="false" />
-                <element signature="e#21422#21423#0" expanded="true" />
-                <element signature="e#21450#21451#0" expanded="true" />
-                <element signature="docComment;method#equals#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#Color#0" expanded="false" />
-                <element signature="method#toString#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#decode#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColor#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColor#1;class#Color#0" expanded="false" />
-                <element signature="method#getColor#1;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColor#2;class#Color#0" expanded="false" />
-                <element signature="method#getColor#2;class#Color#0" expanded="false" />
-                <element signature="docComment;method#HSBtoRGB#0;class#Color#0" expanded="false" />
-                <element signature="method#HSBtoRGB#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#RGBtoHSB#0;class#Color#0" expanded="false" />
-                <element signature="method#RGBtoHSB#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getHSBColor#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getRGBComponents#0;class#Color#0" expanded="false" />
-                <element signature="method#getRGBComponents#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getRGBColorComponents#0;class#Color#0" expanded="false" />
-                <element signature="method#getRGBColorComponents#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getComponents#0;class#Color#0" expanded="false" />
-                <element signature="method#getComponents#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColorComponents#0;class#Color#0" expanded="false" />
-                <element signature="method#getColorComponents#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getComponents#1;class#Color#0" expanded="false" />
-                <element signature="method#getComponents#1;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColorComponents#1;class#Color#0" expanded="false" />
-                <element signature="method#getColorComponents#1;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getColorSpace#0;class#Color#0" expanded="false" />
-                <element signature="method#getColorSpace#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#createContext#0;class#Color#0" expanded="false" />
-                <element signature="method#createContext#0;class#Color#0" expanded="false" />
-                <element signature="docComment;method#getTransparency#0;class#Color#0" expanded="false" />
-                <element signature="method#getTransparency#0;class#Color#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1976">
-              <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
+            <state relative-caret-position="177">
+              <caret line="697" column="25" lean-forward="false" selection-start-line="697" selection-start-column="19" selection-end-line="697" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JBColor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/ui/JBColor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DerivedColor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/plaf/nimbus/DerivedColor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="187" column="19" lean-forward="false" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
-              <folding>
-                <element signature="e#5890#5891#0" expanded="true" />
-                <element signature="e#5941#5942#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -235,19 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>imported</find>
-      <find>setn</find>
-      <find>get</find>
-      <find>initall</find>
-      <find>add</find>
-      <find>editablecopyname</find>
-      <find>editablecopy</find>
-      <find>visi</find>
-      <find>addnewsc</find>
-      <find>savescheme</find>
-      <find>save</find>
-      <find>editable</find>
-      <find>actionperf</find>
       <find>actionperformed</find>
       <find>rename</find>
       <find>copy</find>
@@ -261,11 +157,27 @@
       <find>substring</find>
       <find>newScheme</find>
       <find>getex</find>
-      <find>colors</find>
       <find>length</find>
       <find>getcolorby</find>
       <find>myColorsMa</find>
+      <find>find</find>
+      <find>reset</find>
+      <find>copyto</find>
+      <find>isdefault</find>
+      <find>processco</find>
+      <find>save</find>
+      <find>setsa</find>
+      <find>isdef</find>
+      <find>myParent</find>
+      <find>Textattr</find>
+      <find>Textattributes attrs</find>
+      <find>colors</find>
+      <find>equals</find>
+      <find>f = attr</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -299,12 +211,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="888" />
+    <option name="x" value="-3" />
+    <option name="width" value="891" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -317,316 +230,10 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-              <item name="colors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="actionSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="actionSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
-              <item name="newEditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="ex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="playback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="playback" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="playback" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="popup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="terminal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="openapi.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="colorsche&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;tryimport&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;colors&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;import&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;importaction&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/configurationStore/ImportSettingsAction.class&#10;getoptions&#9;PSI&#9;JAVA://com.intellij.openapi.ui.OptionAction#getOptions&#10;appli&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/execution/application/ApplicationConfigurable.class&#10;settingspanel&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.configurable.CommitDialogSettingsPanel&#10;settings&#9;PSI&#9;JAVA://com.intellij.openapi.editor.impl.SettingsImpl&#10;applicationc&#9;PSI&#9;JAVA://com.intellij.execution.application.ApplicationConfigurable&#10;importscheme&#9;PSI&#9;JAVA://com.intellij.application.options.schemes.AbstractSchemeActions#importScheme&#10;coloract&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/QuickChangeColorSchemeAction.class&#10;colorac&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;jbter&#9;PSI&#9;JAVA://com.intellij.terminal.JBTerminalSystemSettingsProviderBase&#10;setforeground&#9;PSI&#9;JAVA://com.intellij.openapi.editor.markup.TextAttributes#setForegroundColor&#10;schemeactions&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;schemeimporterep&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeImporterEP&#10;colorscheme&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/QuickChangeColorSchemeAction.class&#10;schemem&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class&#10;loadcurrent&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.changes.actions.diff.ChangeDiffRequestProducer#loadCurrentContents&#10;addscheme&#9;PSI&#9;JAVA://com.intellij.ide.actions.QuickChangeColorSchemeAction#addScheme&#10;savescheme&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorAndFontOptions#saveSchemeAs&#10;scheme store&#9;PSI&#9;JAVA://com.intellij.application.options.SchemesToImportPopup.SchemesToImportListCellRenderer&#10;apply action&#9;PSI&#9;JAVA://com.intellij.openapi.options.ex.SingleConfigurableEditor.ApplyAction&#10;action&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/openapi.jar!/com/intellij/ui/tabs/impl/ActionButton.class&#10;colorandfont&#9;PSI&#9;JAVA://com.intellij.application.options.colors.CustomizedSwitcherPanel#myColorAndFontPanel&#10;applybutton&#9;PSI&#9;JAVA://com.intellij.ide.actions.ShowSettingsUtilImpl#isWorthToShowApplyButton&#10;applyset&#9;PSI&#9;JAVA://com.intellij.ide.diff.DirDiffModel#applySettings&#10;apply&#9;PSI&#9;JAVA://org.codehaus.groovy.ast.tools.GenericsUtils#applyGenericsContextToPlaceHolders&#10;applyscheme&#9;PSI&#9;JAVA://com.intellij.application.options.colors.OptionsPanel#applyChangesToScheme&#10;getcurrentscheme&#9;PSI&#9;JAVA://com.intellij.application.options.colors.FontOptions#getCurrentScheme&#10;abracadabra&#9;PSI&#9;JAVA://com.intellij.ide.IdeEventQueue#abracadabraDaberBoreh&#10;main&#9;PSI&#9;JAVA://com.intellij.idea.Main&#10;ansi&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ANSIColoredConsoleColorsPage.class&#10;jbterminal&#9;PSI&#9;JAVA://com.intellij.terminal.JBTerminalSystemSettingsProviderBase" />
+    <property name="SearchEverywhereHistoryKey" value="getallsch&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeManager#getAllSchemes&#10;tryimpo&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;color&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;impo&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;console&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ANSIColoredConsoleColorsPage.class&#10;jbter&#9;PSI&#9;JAVA://com.intellij.terminal.JBTerminalSystemSettingsProviderBase&#10;initeditor&#9;PSI&#9;JAVA://com.intellij.ui.EditorTextField#initEditor&#10;setsavene&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.impl.AbstractColorsScheme#setSaveNeeded&#10;tryim&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;scheme&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;coloredoutput&#9;PSI&#9;JAVA://com.intellij.execution.process.AnsiEscapeDecoder#myColoredOutputTypeRegistry&#10;import&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;escapeseq&#9;PSI&#9;JAVA://com.jediterm.terminal.emulator.JediEmulator#escapeSequenceToString&#10;console color&#9;PSI&#9;JAVA://com.intellij.openapi.options.colors.pages.ANSIColoredConsoleColorsPage&#10;console colors&#9;PSI&#9;JAVA://com.intellij.execution.impl.ConsoleViewUtil#updateConsoleColorScheme&#10;importer&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;selectcolor&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorAndFontOptions#selectOrEditColor&#10;colorpalette&#9;PSI&#9;JAVA://com.intellij.openapi.options.colors.EditorColorPaletteFactoryImpl.ColorPagesPalette&#10;quick&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/openapi.jar!/com/intellij/ide/actions/QuickSwitchSchemeAction.class&#10;getcurrentscheme&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeManager#getCurrentScheme&#10;createscheme&#9;PSI&#9;JAVA://com.intellij.psi.codeStyle.CodeStyleSchemes#createNewScheme&#10;schemeimpo&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;isdefaultscheme&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.EditorColorsManager#isDefaultScheme&#10;colorscheme&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.EditorColorsManager#addColorsScheme&#10;cancelbutton&#9;PSI&#9;JAVA://com.intellij.openapi.wm.impl.status.InlineProgressIndicator#createCancelButton&#10;applyaction&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/ApplyIntentionAction.class&#10;applysettings&#9;PSI&#9;JAVA://com.intellij.formatting.contextConfiguration.ConfigureCodeStyleOnSelectedFragment.FragmentCodeStyleSettingsDialog#applyFromUiToSettings&#10;import action&#9;PSI&#9;JAVA://com.intellij.application.options.schemes.AbstractSchemeActions.ImportAction&#10;impor&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;getansi&#9;PSI&#9;JAVA://com.intellij.execution.process.ColoredOutputTypeRegistry#getAnsiColor&#10;colors&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ColorSettingsPagesImpl.class&#10;palette&#9;PSI&#9;JAVA://com.intellij.designer.palette.PalettePanel&#10;colorsche&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;tryimport&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;importaction&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/configurationStore/ImportSettingsAction.class&#10;getoptions&#9;PSI&#9;JAVA://com.intellij.openapi.ui.OptionAction#getOptions&#10;appli&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/execution/application/ApplicationConfigurable.class&#10;settingspanel&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.configurable.CommitDialogSettingsPanel&#10;settings&#9;PSI&#9;JAVA://com.intellij.openapi.editor.impl.SettingsImpl&#10;applicationc&#9;PSI&#9;JAVA://com.intellij.execution.application.ApplicationConfigurable&#10;importscheme&#9;PSI&#9;JAVA://com.intellij.application.options.schemes.AbstractSchemeActions#importScheme&#10;coloract&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/QuickChangeColorSchemeAction.class&#10;colorac&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;setforeground&#9;PSI&#9;JAVA://com.intellij.openapi.editor.markup.TextAttributes#setForegroundColor&#10;schemeactions&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;schemeimporterep&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeImporterEP&#10;schemem&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class&#10;loadcurrent&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.changes.actions.diff.ChangeDiffRequestProducer#loadCurrentContents&#10;addscheme&#9;PSI&#9;JAVA://com.intellij.ide.actions.QuickChangeColorSchemeAction#addScheme&#10;savescheme&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorAndFontOptions#saveSchemeAs" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
   </component>
@@ -865,24 +472,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="888" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="0" width="891" height="735" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31886476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.312187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4589372" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45688352" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -896,10 +501,14 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,331 +527,311 @@
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/execution/process/ProcessOutputTypes.class</url>
+          <line>10</line>
+          <properties field="SYSTEM" class="com.intellij.execution.process.ProcessOutputTypes" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorAndFontOptions.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorColorsManagerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="278" column="16" lean-forward="false" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="123">
+          <caret line="328" column="15" lean-forward="false" selection-start-line="328" selection-start-column="15" selection-end-line="328" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/extensions.jar!/com/intellij/openapi/extensions/AbstractExtensionPointBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/org/intellij/images/options/impl/OptionsManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="23" column="80" lean-forward="true" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-          <folding>
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/org/intellij/images/options/OptionsManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ImportHandler.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/execution/process/ProcessOutputTypes.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/LazyInstance.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/ide/actions/QuickSwitchSchemeAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="-408">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/NotNullLazyValue.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/ide/actions/QuickChangeColorSchemeAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="35" column="103" lean-forward="true" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/deploy.jar!/com/sun/deploy/panel/CertificatesDialog.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/configurationStore/ImportSettingsAction.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorPaletteFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-          <folding />
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/SchemesCombo.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/colors/EditorColorPaletteFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="99">
+          <caret line="87" column="38" lean-forward="true" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/EditableSchemesCombo.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/Element.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="186" column="38" lean-forward="false" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
-          <folding>
-            <element signature="e#7815#7816#0" expanded="true" />
-            <element signature="e#7873#7874#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="546" column="19" lean-forward="false" selection-start-line="546" selection-start-column="19" selection-end-line="546" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/AbstractSchemesPanel.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/TextAttributesReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="145" column="43" lean-forward="false" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
-          <folding>
-            <element signature="e#6234#6235#0" expanded="true" />
-            <element signature="e#6296#6297#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/AbstractSchemeActions.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/TerminalOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="187" column="43" lean-forward="true" selection-start-line="187" selection-start-column="43" selection-end-line="187" selection-end-column="43" />
-          <folding>
-            <element signature="e#8396#8397#0" expanded="true" />
-            <element signature="e#8458#8459#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/SchemeImporterEP.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/execution/impl/ConsoleViewUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-          <folding>
-            <element signature="e#1034#1278#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="162" column="28" lean-forward="false" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/psi/impl/source/codeStyle/CodeStyleSchemeImpl.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/Terminal.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="177">
+          <caret line="118" column="15" lean-forward="false" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/markup/AttributesFlyweight.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/emulator/ControlSequence.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="188" column="31" lean-forward="false" selection-start-line="188" selection-start-column="31" selection-end-line="188" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="935">
+          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/options/SchemeFactory.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/model/JediTerminal.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="177">
+          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/codeStyle/CodeStyleSchemesModel.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/TerminalColor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="223" column="30" lean-forward="true" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/AttributeList.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/TextStyle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="-588">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/ValueElementReader.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jediterm-pty-2.5.jar!/com/jediterm/terminal/emulator/JediEmulator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="117">
+          <caret line="989" column="40" lean-forward="false" selection-start-line="989" selection-start-column="40" selection-end-line="989" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorFontCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="194">
           <caret line="304" column="9" lean-forward="false" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/codeStyle/CodeStyleSchemesActions.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorFontCacheImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="157" column="86" lean-forward="true" selection-start-line="157" selection-start-column="86" selection-end-line="157" selection-end-column="86" />
+        <state relative-caret-position="228">
+          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/HighlighterColors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="88" lean-forward="true" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/openapi/util/text/StringUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="156" column="25" lean-forward="false" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/execution/process/ColoredOutputTypeRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/execution/process/ColoredProcessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/execution/process/AnsiEscapeDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/options/SearchableConfigurable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="84" column="40" lean-forward="false" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/codeHighlighting/RainbowHighlighter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/impl/EditorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1209" column="31" lean-forward="false" selection-start-line="1209" selection-start-column="31" selection-end-line="1209" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/Editor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/ui/EditorTextField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4743">
+          <caret line="368" column="33" lean-forward="false" selection-start-line="368" selection-start-column="33" selection-end-line="368" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorsManager.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorAndFontOptions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="4352">
+          <caret line="366" column="5" lean-forward="false" selection-start-line="366" selection-start-column="5" selection-end-line="366" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/terminal/JBTerminalSystemSettingsProviderBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2235">
+          <caret line="216" column="47" lean-forward="false" selection-start-line="216" selection-start-column="47" selection-end-line="216" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/DefaultColorsScheme.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/options/OptionsBundle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/TextAttributesScheme.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/ColorKey.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/ValueElementReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/configurationStore/SchemeManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/DefaultColorsScheme.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/options/SchemeImporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorColorsSchemeImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorColorsManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="63" column="52" lean-forward="false" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="3659" column="25" lean-forward="false" selection-start-line="3659" selection-start-column="25" selection-end-line="3659" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/vfs/VirtualFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="120" column="8" lean-forward="false" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/execution/process/ColoredOutputTypeRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="195" column="32" lean-forward="false" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
+        <state relative-caret-position="211">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/execution/ui/ConsoleViewContentType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="109">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/TextAttributesKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="167" column="26" lean-forward="false" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="26" />
+          <folding>
+            <element signature="e#6609#6610#0" expanded="true" />
+            <element signature="e#6674#6675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/execution/process/ConsoleHighlighter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/EditorColorsSchemeImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="89" lean-forward="false" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        <state relative-caret-position="337">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/markup/TextAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
+        <state relative-caret-position="-394">
           <caret line="100" column="16" lean-forward="false" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding>
             <element signature="e#3760#3761#0" expanded="true" />
@@ -1251,208 +840,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ANSIColoredConsoleColorsPage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+        <state relative-caret-position="136">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/SchemeImportUtil.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/options/SchemeImportException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorsScheme.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="102" column="9" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="343" column="52" lean-forward="false" selection-start-line="343" selection-start-column="52" selection-end-line="343" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="543" column="31" lean-forward="true" selection-start-line="543" selection-start-column="31" selection-end-line="543" selection-end-column="31" />
-          <folding>
-            <element signature="e#16347#16348#0" expanded="true" />
-            <element signature="e#16416#16417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/jdom.jar!/org/jdom/ContentList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="219" column="32" lean-forward="false" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
-          <folding>
-            <element signature="e#7878#7879#0" expanded="true" />
-            <element signature="e#7935#7936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/plaf/nimbus/DerivedColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="187" column="19" lean-forward="false" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
-          <folding>
-            <element signature="e#5890#5891#0" expanded="true" />
-            <element signature="e#5941#5942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/util.jar!/com/intellij/ui/JBColor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443">
-          <caret line="306" column="62" lean-forward="true" selection-start-line="306" selection-start-column="62" selection-end-line="306" selection-end-column="62" />
-          <folding>
-            <element signature="docComment;class#Color#0" expanded="false" />
-            <element signature="docComment;field#white#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#WHITE#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#lightGray#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#LIGHT_GRAY#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#gray#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#GRAY#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#darkGray#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#DARK_GRAY#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#black#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#BLACK#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#red#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#RED#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#pink#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#PINK#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#orange#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#ORANGE#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#yellow#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#YELLOW#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#green#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#GREEN#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#magenta#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#MAGENTA#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#cyan#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#CYAN#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#blue#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#BLUE#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#value#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#frgbvalue#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#fvalue#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#falpha#0;class#Color#0" expanded="false" />
-            <element signature="docComment;field#cs#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#initIDs#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#testColorValueRange#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#testColorValueRange#1;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#1;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#2;class#Color#0" expanded="false" />
-            <element signature="e#11984#11985#0" expanded="true" />
-            <element signature="e#12024#12025#0" expanded="true" />
-            <element signature="docComment;method#Color#3;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#4;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#5;class#Color#0" expanded="false" />
-            <element signature="docComment;method#Color#6;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getRed#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getGreen#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getBlue#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getAlpha#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#brighter#0;class#Color#0" expanded="false" />
-            <element signature="method#brighter#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#darker#0;class#Color#0" expanded="false" />
-            <element signature="method#darker#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Color#0" expanded="false" />
-            <element signature="e#21422#21423#0" expanded="true" />
-            <element signature="e#21450#21451#0" expanded="true" />
-            <element signature="docComment;method#equals#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Color#0" expanded="false" />
-            <element signature="method#toString#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#decode#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColor#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColor#1;class#Color#0" expanded="false" />
-            <element signature="method#getColor#1;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColor#2;class#Color#0" expanded="false" />
-            <element signature="method#getColor#2;class#Color#0" expanded="false" />
-            <element signature="docComment;method#HSBtoRGB#0;class#Color#0" expanded="false" />
-            <element signature="method#HSBtoRGB#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#RGBtoHSB#0;class#Color#0" expanded="false" />
-            <element signature="method#RGBtoHSB#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getHSBColor#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getRGBComponents#0;class#Color#0" expanded="false" />
-            <element signature="method#getRGBComponents#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getRGBColorComponents#0;class#Color#0" expanded="false" />
-            <element signature="method#getRGBColorComponents#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getComponents#0;class#Color#0" expanded="false" />
-            <element signature="method#getComponents#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColorComponents#0;class#Color#0" expanded="false" />
-            <element signature="method#getColorComponents#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getComponents#1;class#Color#0" expanded="false" />
-            <element signature="method#getComponents#1;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColorComponents#1;class#Color#0" expanded="false" />
-            <element signature="method#getColorComponents#1;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getColorSpace#0;class#Color#0" expanded="false" />
-            <element signature="method#getColorSpace#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#createContext#0;class#Color#0" expanded="false" />
-            <element signature="method#createContext#0;class#Color#0" expanded="false" />
-            <element signature="docComment;method#getTransparency#0;class#Color#0" expanded="false" />
-            <element signature="method#getTransparency#0;class#Color#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="697" column="25" lean-forward="false" selection-start-line="697" selection-start-column="19" selection-end-line="697" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="336" column="16" lean-forward="false" selection-start-line="336" selection-start-column="16" selection-end-line="336" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/schemes/SchemeNameGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="18" column="102" lean-forward="false" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/EditorColorsScheme.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/markup/AttributesFlyweight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="80" column="60" lean-forward="true" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImportConsoleColorScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="267" column="12" lean-forward="true" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="223" column="28" lean-forward="true" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#parseColorschemeFile#0;class#ImportConsoleColorScheme#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
