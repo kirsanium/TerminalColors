@@ -28,7 +28,7 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
     @NotNull
     @Override
     public String[] getSourceExtensions() {
-        return new String[]{"reg", "colorscheme"};
+        return new String[]{"reg", "colorscheme", "config"};
     }
 
 
@@ -54,6 +54,10 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         if (extension.equals("colorscheme")) {
             newScheme = parseColorschemeFile(lines, newScheme);
         }
+        if (extension.equals("config")) {
+            newScheme = parseConfigFile(lines, newScheme);
+
+        }
         return newScheme;
     }
 
@@ -63,8 +67,8 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         String[] colorNums;
         Object[] linesArray;
         AttributesFlyweight f;
-        TextAttributes attrs = null;
-        TextAttributesKey key = null;
+        TextAttributes attrs;
+        TextAttributesKey key;
         int linesAmount = lines.size();
         linesArray = lines.toArray();
         for (int i = 0; i < linesAmount; i++) {
@@ -199,8 +203,8 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         String[] colorNums;
         Object[] linesArray;
         AttributesFlyweight f;
-        TextAttributes attrs = null;
-        TextAttributesKey key = null;
+        TextAttributes attrs;
+        TextAttributesKey key;
         int linesAmount = lines.size();
         linesArray = lines.toArray();
         for (int i = 0; i < linesAmount; i++) {
@@ -218,7 +222,7 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
                 f = AttributesFlyweight.create(color, null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
                 newScheme.setAttributes(ConsoleViewContentType.NORMAL_OUTPUT_KEY, attrs);
-            } else {
+            } else if (linesArray[i].toString().startsWith("[Color")){
                 for (int j = 0; j < 8; j++) {
                     if (linesArray[i].toString().startsWith("[Color" + j)) {
                         i++;
@@ -226,15 +230,15 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
                         colorNums = splitting[1].split(",");
                         color = new Color(Integer.parseInt(colorNums[0]), Integer.parseInt(colorNums[1]), Integer.parseInt(colorNums[2]));
                         f = AttributesFlyweight.create(color, null, 0, null, null, null);
-                        if (linesArray[i].toString().substring(7, 8).equals("]")) {
+                        if (linesArray[i-1].toString().startsWith("[Color" + j + "]")) {
                             switch (j) {
-                                case 0: { //Default Foreground
+                                case 0: {
                                     key = ColoredOutputTypeRegistry.getAnsiColorKey(0);
                                     attrs = TextAttributes.fromFlyweight(f);
                                     newScheme.setAttributes(key, attrs);
                                     break;
                                 }
-                                case 1: { //Default Background
+                                case 1: {
                                     key = ColoredOutputTypeRegistry.getAnsiColorKey(1);
                                     attrs = TextAttributes.fromFlyweight(f);
                                     newScheme.setAttributes(key, attrs);
@@ -277,7 +281,7 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
                                     break;
                                 }
                             }
-                        } else {
+                        } else if (linesArray[i-1].toString().startsWith("[Color" + j + "Intense]")) {
                             switch (j) {
                                 case 0: {
                                     key = ColoredOutputTypeRegistry.getAnsiColorKey(8);
@@ -336,10 +340,10 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         return newScheme;
     }
 
+
     private EditorColorsScheme parseConfigFile(List<String> lines, EditorColorsScheme newScheme) {
         Color color;
         String[] splitting;
-        String[] colorNums;
         Object[] linesArray;
         AttributesFlyweight f;
         TextAttributes attrs;
@@ -350,8 +354,24 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             if (linesArray[i].toString().contains("palette")) {
                 splitting = linesArray[i].toString().split("#");
                 for (int j = 0; j < 16; j++) {
-                    color = new Color (Integer.parseInt(splitting[i+1].substring(0,6), 16));
+                    color = new Color (Integer.parseInt(splitting[j+1].substring(0,6), 16));
+                    f = AttributesFlyweight.create(color, null, 0, null, null, null);
+                    key = ColoredOutputTypeRegistry.getAnsiColorKey(j);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(key, attrs);
                 }
+            }
+            else if (linesArray[i].toString().contains("background_color")) {
+                splitting = linesArray[i].toString().split("#");
+                color = new Color (Integer.parseInt(splitting[1].substring(0,6), 16));
+                newScheme.setColor(ConsoleViewContentType.CONSOLE_BACKGROUND_KEY, color);
+            }
+            else if (linesArray[i].toString().contains("foreground")) {
+                splitting = linesArray[i].toString().split("#");
+                color = new Color (Integer.parseInt(splitting[1].substring(0,6), 16));
+                f = AttributesFlyweight.create(color, null, 0, null, null, null);
+                attrs = TextAttributes.fromFlyweight(f);
+                newScheme.setAttributes(ConsoleViewContentType.NORMAL_OUTPUT_KEY, attrs);
             }
         }
         return newScheme;
