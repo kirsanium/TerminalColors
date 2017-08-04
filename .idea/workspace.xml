@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2d72af-8942-4329-a1c4-611ce1b1f1e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled1/ImportConsoleColorScheme.class" afterPath="$PROJECT_DIR$/out/production/untitled1/ImportConsoleColorScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" afterPath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImportConsoleColorScheme.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImportConsoleColorScheme.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImportConsoleColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -108,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -188,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/ImportedConsoleColorScheme.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/ImportConsoleColorScheme1.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -213,7 +211,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -226,7 +224,374 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="ide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="bootstrap.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="ide" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+              <item name="pathMacros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+              <item name="schemes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="actionSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="actionSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+              <item name="colors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+              <item name="colors" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+              <item name="newEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="ex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="playback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="playback" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="playback" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="popup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="terminal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="idea.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jetbrains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; IntelliJ IDEA Community Edition IC-171.4694.70 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="openapi.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getallsch&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeManager#getAllSchemes&#10;tryimpo&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;color&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;impo&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;console&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ANSIColoredConsoleColorsPage.class&#10;jbter&#9;PSI&#9;JAVA://com.intellij.terminal.JBTerminalSystemSettingsProviderBase&#10;initeditor&#9;PSI&#9;JAVA://com.intellij.ui.EditorTextField#initEditor&#10;setsavene&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.impl.AbstractColorsScheme#setSaveNeeded&#10;tryim&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;scheme&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;coloredoutput&#9;PSI&#9;JAVA://com.intellij.execution.process.AnsiEscapeDecoder#myColoredOutputTypeRegistry&#10;import&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;escapeseq&#9;PSI&#9;JAVA://com.jediterm.terminal.emulator.JediEmulator#escapeSequenceToString&#10;console color&#9;PSI&#9;JAVA://com.intellij.openapi.options.colors.pages.ANSIColoredConsoleColorsPage&#10;console colors&#9;PSI&#9;JAVA://com.intellij.execution.impl.ConsoleViewUtil#updateConsoleColorScheme&#10;importer&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;selectcolor&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorAndFontOptions#selectOrEditColor&#10;colorpalette&#9;PSI&#9;JAVA://com.intellij.openapi.options.colors.EditorColorPaletteFactoryImpl.ColorPagesPalette&#10;quick&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/openapi.jar!/com/intellij/ide/actions/QuickSwitchSchemeAction.class&#10;getcurrentscheme&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeManager#getCurrentScheme&#10;createscheme&#9;PSI&#9;JAVA://com.intellij.psi.codeStyle.CodeStyleSchemes#createNewScheme&#10;schemeimpo&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;isdefaultscheme&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.EditorColorsManager#isDefaultScheme&#10;colorscheme&#9;PSI&#9;JAVA://com.intellij.openapi.editor.colors.EditorColorsManager#addColorsScheme&#10;cancelbutton&#9;PSI&#9;JAVA://com.intellij.openapi.wm.impl.status.InlineProgressIndicator#createCancelButton&#10;applyaction&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/ApplyIntentionAction.class&#10;applysettings&#9;PSI&#9;JAVA://com.intellij.formatting.contextConfiguration.ConfigureCodeStyleOnSelectedFragment.FragmentCodeStyleSettingsDialog#applyFromUiToSettings&#10;import action&#9;PSI&#9;JAVA://com.intellij.application.options.schemes.AbstractSchemeActions.ImportAction&#10;impor&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;getansi&#9;PSI&#9;JAVA://com.intellij.execution.process.ColoredOutputTypeRegistry#getAnsiColor&#10;colors&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/colors/pages/ColorSettingsPagesImpl.class&#10;palette&#9;PSI&#9;JAVA://com.intellij.designer.palette.PalettePanel&#10;colorsche&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeImporter.class&#10;tryimport&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorSchemeActions#tryImportWithImportHandler&#10;importaction&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/configurationStore/ImportSettingsAction.class&#10;getoptions&#9;PSI&#9;JAVA://com.intellij.openapi.ui.OptionAction#getOptions&#10;appli&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/execution/application/ApplicationConfigurable.class&#10;settingspanel&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.configurable.CommitDialogSettingsPanel&#10;settings&#9;PSI&#9;JAVA://com.intellij.openapi.editor.impl.SettingsImpl&#10;applicationc&#9;PSI&#9;JAVA://com.intellij.execution.application.ApplicationConfigurable&#10;importscheme&#9;PSI&#9;JAVA://com.intellij.application.options.schemes.AbstractSchemeActions#importScheme&#10;coloract&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/ide/actions/QuickChangeColorSchemeAction.class&#10;colorac&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;setforeground&#9;PSI&#9;JAVA://com.intellij.openapi.editor.markup.TextAttributes#setForegroundColor&#10;schemeactions&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/application/options/colors/ColorSchemeActions.class&#10;schemeimporterep&#9;PSI&#9;JAVA://com.intellij.openapi.options.SchemeImporterEP&#10;schemem&#9;FILE&#9;jar://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.1.5/lib/idea.jar!/com/intellij/openapi/options/SchemeManager.class&#10;loadcurrent&#9;PSI&#9;JAVA://com.intellij.openapi.vcs.changes.actions.diff.ChangeDiffRequestProducer#loadCurrentContents&#10;addscheme&#9;PSI&#9;JAVA://com.intellij.ide.actions.QuickChangeColorSchemeAction#addScheme&#10;savescheme&#9;PSI&#9;JAVA://com.intellij.application.options.colors.ColorAndFontOptions#saveSchemeAs" />
@@ -737,6 +1102,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4352">
           <caret line="366" column="5" lean-forward="false" selection-start-line="366" selection-start-column="5" selection-end-line="366" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,14 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/editor/colors/impl/AbstractColorsScheme.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4981">
@@ -903,6 +1261,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
