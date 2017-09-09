@@ -8,9 +8,9 @@ public class ColorType {
     public static final String BACKGROUND = "backgroundcolor";
     public static final String FOREGROUND = "foregroundcolor";
 
-    public ColorType(String colorIdentifier, int color) {
+    public ColorType(String colorIdentifier, Color color) {
         this.colorIdentifier = colorIdentifier;
-        this.color = new Color(color);
+        this.color = color;
     }
 
     public String getColorIdentifier() {

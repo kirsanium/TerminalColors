@@ -15,7 +15,6 @@ import com.intellij.openapi.util.InvalidDataException;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.*;
@@ -41,6 +40,17 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         return new String[]{"reg", "colorscheme", "config", "itermcolors", "terminal"};
     }
 
+
+    private Map<String, Comparable> initColorsMap() {
+        Map<String, Comparable> colorsMap = new HashMap<>();
+        for (int i = 0; i < 16; i++) {
+            colorsMap.put(ColorType.ANSI[i], ColoredOutputTypeRegistry.getAnsiColorKey(i));
+        }
+        colorsMap.put(ColorType.BACKGROUND, ConsoleViewContentType.CONSOLE_BACKGROUND_KEY);
+        colorsMap.put(ColorType.FOREGROUND, ConsoleViewContentType.NORMAL_OUTPUT_KEY);
+        return colorsMap;
+    }
+
     @Nullable
     @Override
     public EditorColorsScheme importScheme(@NotNull Project project, @NotNull VirtualFile selectedFile, @NotNull EditorColorsScheme currentScheme, @NotNull SchemeFactory<EditorColorsScheme> schemeFactory) throws SchemeImportException {
@@ -50,7 +60,11 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         EditorColorsScheme newScheme = (EditorColorsScheme)manager.getGlobalScheme().clone();
         newScheme.setName(name);
         if (extension.equals("reg")) {
-            newScheme = parseRegFile(selectedFile, newScheme);
+            try {
+                newScheme = parseRegFile(selectedFile, newScheme);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
         if (extension.equals("colorscheme")) {
             newScheme = parseColorschemeFile(selectedFile, newScheme);
@@ -71,130 +85,150 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         return newScheme;
     }
 
-    private EditorColorsScheme parseRegFile(VirtualFile selectedFile, EditorColorsScheme newScheme) {
-        Path path = Paths.get(selectedFile.getPath());
-        List<String> lines;
-        try {
-            lines = Files.readAllLines(path);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
-        Color color;
-        String[] splitting;
-        String[] colorNums;
-        Object[] linesArray;
+    private EditorColorsScheme parseRegFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
+//        Path path = Paths.get(selectedFile.getPath());
+//        List<String> lines;
+//        try {
+//            lines = Files.readAllLines(path);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//            return null;
+//        }
+//        Color color;
+//        String[] splitting;
+//        String[] colorNums;
+//        Object[] linesArray;
+//        AttributesFlyweight f;
+//        TextAttributes attrs;
+//        TextAttributesKey key;
+//        int linesAmount = lines.size();
+//        linesArray = lines.toArray();
+//        for (int i = 0; i < linesAmount; i++) {
+//            for (int j = 0; j < 22; j++) {
+//                if (linesArray[i].toString().startsWith("\"Colour" + j)) {
+//                    splitting = linesArray[i].toString().split("\"");
+//                    colorNums = splitting[3].split(",");
+//                    color = new Color(Integer.parseInt(colorNums[0]), Integer.parseInt(colorNums[1]), Integer.parseInt(colorNums[2]));
+//                    f = AttributesFlyweight.create(color, null, 0, null, null, null);
+//                    attrs = TextAttributes.fromFlyweight(f);
+//                    if (j != 1 && j != 3 && j != 4 && j != 5 && linesArray[i].toString().substring(8, 9).equals("\"")) {
+//                        switch (j) {
+//                            case 0: { //Default Foreground
+//                                key = ConsoleViewContentType.NORMAL_OUTPUT_KEY;
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 2: { //Default Background
+//                                newScheme.setColor(ConsoleViewContentType.CONSOLE_BACKGROUND_KEY, color);
+//                                break;
+//                            }
+//                            case 6: { //Black ANSI output
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(0);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 7: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(8);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 8: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(1);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 9: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(9);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                        }
+//                    } else {
+//                        switch (j) {
+//                            case 10: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(2);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 11: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(10);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 12: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(3);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 13: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(11);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 14: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(4);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 15: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(12);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 16: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(5);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 17: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(13);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 18: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(6);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 19: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(14);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 20: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(7);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                            case 21: {
+//                                key = ColoredOutputTypeRegistry.getAnsiColorKey(15);
+//                                newScheme.setAttributes(key, attrs);
+//                                break;
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//        return newScheme;
+        Map<String, Comparable> colorsMap = initColorsMap();
+        Comparable key;
         AttributesFlyweight f;
         TextAttributes attrs;
-        TextAttributesKey key;
-        int linesAmount = lines.size();
-        linesArray = lines.toArray();
-        for (int i = 0; i < linesAmount; i++) {
-            for (int j = 0; j < 22; j++) {
-                if (linesArray[i].toString().startsWith("\"Colour" + j)) {
-                    splitting = linesArray[i].toString().split("\"");
-                    colorNums = splitting[3].split(",");
-                    color = new Color(Integer.parseInt(colorNums[0]), Integer.parseInt(colorNums[1]), Integer.parseInt(colorNums[2]));
-                    f = AttributesFlyweight.create(color, null, 0, null, null, null);
-                    attrs = TextAttributes.fromFlyweight(f);
-                    if (j != 1 && j != 3 && j != 4 && j != 5 && linesArray[i].toString().substring(8, 9).equals("\"")) {
-                        switch (j) {
-                            case 0: { //Default Foreground
-                                key = ConsoleViewContentType.NORMAL_OUTPUT_KEY;
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 2: { //Default Background
-                                newScheme.setColor(ConsoleViewContentType.CONSOLE_BACKGROUND_KEY, color);
-                                break;
-                            }
-                            case 6: { //Black ANSI output
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(0);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 7: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(8);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 8: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(1);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 9: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(9);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                        }
-                    } else {
-                        switch (j) {
-                            case 10: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(2);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 11: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(10);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 12: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(3);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 13: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(11);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 14: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(4);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 15: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(12);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 16: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(5);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 17: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(13);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 18: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(6);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 19: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(14);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 20: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(7);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                            case 21: {
-                                key = ColoredOutputTypeRegistry.getAnsiColorKey(15);
-                                newScheme.setAttributes(key, attrs);
-                                break;
-                            }
-                        }
-                    }
-                }
+        InputStream input = selectedFile.getInputStream();
+        InputStreamReader isr = new InputStreamReader(input);
+        RegColorsLexer ccl = new RegColorsLexer(isr);
+        ColorType colorType = ccl.yylex();
+        while(colorType != null) {
+            key = colorsMap.get(colorType.getColorIdentifier());
+            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
+                newScheme.setColor((ColorKey)key, colorType.getColor());
+            else {
+                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
+                attrs = TextAttributes.fromFlyweight(f);
+                newScheme.setAttributes((TextAttributesKey)key, attrs);
             }
+            colorType = ccl.yylex();
         }
         return newScheme;
     }
@@ -258,44 +292,6 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
 //known bug: .colorscheme parsing replaces default scheme
 
     private EditorColorsScheme parseConfigFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
-//        Path path = Paths.get(selectedFile.getPath());
-//        List<String> lines;
-//        try {
-//            lines = Files.readAllLines(path);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//            return null;
-//        }
-//        Color color;
-//        String[] splitting;
-//        Object[] linesArray;
-//        AttributesFlyweight f;
-//        TextAttributes attrs;
-//        TextAttributesKey key;
-//        int linesAmount = lines.size();
-//        linesArray = lines.toArray();
-//        for (int i = 0; i < linesAmount; i++) {
-//            if (linesArray[i].toString().contains("palette")) {
-//                splitting = linesArray[i].toString().split("#");
-//                for (int j = 0; j < 16; j++) {
-//                    color = new Color(Integer.parseInt(splitting[j + 1].substring(0, 6), 16));
-//                    f = AttributesFlyweight.create(color, null, 0, null, null, null);
-//                    key = ColoredOutputTypeRegistry.getAnsiColorKey(j);
-//                    attrs = TextAttributes.fromFlyweight(f);
-//                    newScheme.setAttributes(key, attrs);
-//                }
-//            } else if (linesArray[i].toString().contains("background_color")) {
-//                splitting = linesArray[i].toString().split("#");
-//                color = new Color(Integer.parseInt(splitting[1].substring(0, 6), 16));
-//                newScheme.setColor(ConsoleViewContentType.CONSOLE_BACKGROUND_KEY, color);
-//            } else if (linesArray[i].toString().contains("foreground")) {
-//                splitting = linesArray[i].toString().split("#");
-//                color = new Color(Integer.parseInt(splitting[1].substring(0, 6), 16));
-//                f = AttributesFlyweight.create(color, null, 0, null, null, null);
-//                attrs = TextAttributes.fromFlyweight(f);
-//                newScheme.setAttributes(ConsoleViewContentType.NORMAL_OUTPUT_KEY, attrs);
-//            }
-//        }
         Map<String, Comparable> colorsMap = initColorsMap();
         Comparable key;
         AttributesFlyweight f;
@@ -303,20 +299,17 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         InputStream input = selectedFile.getInputStream();
         InputStreamReader isr = new InputStreamReader(input);
         ConfigColorsLexer ccl = new ConfigColorsLexer(isr);
-        ColorType colorType = null;
-        while(!ccl.zzAtEOF) {
-            colorType = ccl.yylex();
-            if (colorType == null) break;
+        ColorType colorType = ccl.yylex();
+        while(colorType != null) {
+            key = colorsMap.get(colorType.getColorIdentifier());
+            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
+                newScheme.setColor((ColorKey)key, colorType.getColor());
             else {
-                key = colorsMap.get(colorType.getColorIdentifier());
-                if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
-                    newScheme.setColor((ColorKey)key, colorType.getColor());
-                else {
-                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
-                    attrs = TextAttributes.fromFlyweight(f);
-                    newScheme.setAttributes((TextAttributesKey)key, attrs);
-                }
+                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
+                attrs = TextAttributes.fromFlyweight(f);
+                newScheme.setAttributes((TextAttributesKey)key, attrs);
             }
+            colorType = ccl.yylex();
         }
         return newScheme;
     }
@@ -490,15 +483,5 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             }
         }
         return newScheme;
-    }
-
-    private Map<String, Comparable> initColorsMap() {
-        Map<String, Comparable> colorsMap = new HashMap<>();
-        for (int i = 0; i < 16; i++) {
-            colorsMap.put(ColorType.ANSI[i], ColoredOutputTypeRegistry.getAnsiColorKey(i));
-        }
-        colorsMap.put(ColorType.BACKGROUND, ConsoleViewContentType.CONSOLE_BACKGROUND_KEY);
-        colorsMap.put(ColorType.FOREGROUND, ConsoleViewContentType.NORMAL_OUTPUT_KEY);
-        return colorsMap;
     }
 }
