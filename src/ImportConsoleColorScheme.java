@@ -5,6 +5,7 @@ import com.intellij.openapi.editor.colors.EditorColorsScheme;
 import com.intellij.openapi.editor.colors.TextAttributesKey;
 import com.intellij.openapi.editor.markup.AttributesFlyweight;
 import com.intellij.openapi.editor.colors.impl.EditorColorsManagerImpl;
+import com.intellij.openapi.editor.markup.EffectType;
 import com.intellij.openapi.editor.markup.TextAttributes;
 import com.intellij.openapi.options.SchemeFactory;
 import com.intellij.openapi.options.SchemeImportException;
@@ -99,9 +100,14 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
                 newScheme.setColor((ColorKey)key, colorType.getColor());
             else {
+                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
+                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+                }
                 f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
-                newScheme.setAttributes((TextAttributesKey)key, attrs);
+                newScheme.setAttributes((TextAttributesKey) key, attrs);
             }
             colorType = ccl.yylex();
         }
@@ -123,9 +129,14 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
                 newScheme.setColor((ColorKey)key, colorType.getColor());
             else {
+                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
+                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+                }
                 f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
-                newScheme.setAttributes((TextAttributesKey)key, attrs);
+                newScheme.setAttributes((TextAttributesKey) key, attrs);
             }
             colorType = ccl.yylex();
         }
@@ -147,9 +158,14 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
                 newScheme.setColor((ColorKey)key, colorType.getColor());
             else {
+                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
+                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+                }
                 f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
-                newScheme.setAttributes((TextAttributesKey)key, attrs);
+                newScheme.setAttributes((TextAttributesKey) key, attrs);
             }
             colorType = ccl.yylex();
         }
@@ -219,6 +235,11 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
             if (ansiKeyName.equals("Background Color")) {
                 newScheme.setColor((ColorKey)colorsMap.get(ansiKeyName), color);
             } else {
+                if (ansiKeyName.equals("Foreground Color")){
+                    f = AttributesFlyweight.create(color, null, 0, color, EffectType.LINE_UNDERSCORE, null);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+                }
                 f = AttributesFlyweight.create(color, null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
                 newScheme.setAttributes((TextAttributesKey)colorsMap.get(ansiKeyName), attrs);
@@ -292,6 +313,11 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
                 newScheme.setColor((ColorKey)key, color);
             }
             else {
+                if (colorName.equals("TextColor")) {
+                    f = AttributesFlyweight.create(color, null, 0, color, EffectType.LINE_UNDERSCORE, null);
+                    attrs = TextAttributes.fromFlyweight(f);
+                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+                }
                 f = AttributesFlyweight.create(color, null, 0, null, null, null);
                 attrs = TextAttributes.fromFlyweight(f);
                 newScheme.setAttributes((TextAttributesKey)key, attrs);
