@@ -649,7 +649,7 @@ static {
                                         decColorFound = false;
                                         colorNumberFound = false;
                                         yybegin(YYINITIAL);
-                                        return new ColorType(colorIdentifier, color.getRGB());
+                                        return new ColorType(colorIdentifier, color);
                                         }
             }
           case 13: break;

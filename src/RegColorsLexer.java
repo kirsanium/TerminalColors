@@ -10,7 +10,7 @@ import java.awt.*;
  * <a href="http://www.jflex.de/">JFlex</a> 1.6.1
  * from the specification file <tt>C:/Users/Никита/IdeaProjects/untitled1/src/reg.flex</tt>
  */
-class RegColorsLexer {
+class RegColorsLexer implements ColorsLexer {
 
   /** This character denotes the end of file */
   public static final int YYEOF = -1;

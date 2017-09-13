@@ -56,44 +56,45 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
         EditorColorsManagerImpl manager = (EditorColorsManagerImpl) EditorColorsManagerImpl.getInstance();
         EditorColorsScheme newScheme = (EditorColorsScheme)manager.getGlobalScheme().clone();
         newScheme.setName(name);
-        if (extension.equals("reg")) {
+        if (extension.equals("reg") || extension.equals("colorscheme") || extension.equals("config")) {
             try {
-                newScheme = parseRegFile(selectedFile, newScheme);
+                newScheme = parseRegConfigColorschemeFile(selectedFile, newScheme, extension);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-        if (extension.equals("colorscheme")) {
-            try {
-                newScheme = parseColorschemeFile(selectedFile, newScheme);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        if (extension.equals("config")) {
-            try {
-                newScheme = parseConfigFile(selectedFile, newScheme);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        if (extension.equals("itermcolors")) {
+        else if (extension.equals("itermcolors")) {
             newScheme = parseItermcolorsFile(selectedFile, newScheme);
         }
-        if (extension.equals("terminal")) {
+        else if (extension.equals("terminal")) {
             newScheme = parseTerminalFile(selectedFile, newScheme);
         }
         return newScheme;
     }
 
-    private EditorColorsScheme parseRegFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
+    private EditorColorsScheme parseRegConfigColorschemeFile(VirtualFile selectedFile, EditorColorsScheme newScheme, String extension) throws IOException, SchemeImportException {
         Map<String, Comparable> colorsMap = initColorTypeMap();
         Comparable key;
         AttributesFlyweight f;
         TextAttributes attrs;
         InputStream input = selectedFile.getInputStream();
         InputStreamReader isr = new InputStreamReader(input);
-        RegColorsLexer ccl = new RegColorsLexer(isr);
+        ColorsLexer ccl;
+        switch (extension) {
+            case "reg": {
+                ccl = new RegColorsLexer(isr);
+                break;
+            }
+            case "colorscheme": {
+                ccl = new ColorschemeColorsLexer(isr);
+                break;
+            }
+            case "config": {
+                ccl = new ConfigColorsLexer(isr);
+                break;
+            }
+            default: throw new SchemeImportException("Wrong extension");
+        }
         ColorType colorType = ccl.yylex();
         while(colorType != null) {
             key = colorsMap.get(colorType.getColorIdentifier());
@@ -115,62 +116,62 @@ public class ImportConsoleColorScheme implements SchemeImporter<EditorColorsSche
     }
 
 
-    private EditorColorsScheme parseColorschemeFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
-        Map<String, Comparable> colorsMap = initColorTypeMap();
-        Comparable key;
-        AttributesFlyweight f;
-        TextAttributes attrs;
-        InputStream input = selectedFile.getInputStream();
-        InputStreamReader isr = new InputStreamReader(input);
-        ColorschemeColorsLexer ccl = new ColorschemeColorsLexer(isr);
-        ColorType colorType = ccl.yylex();
-        while(colorType != null) {
-            key = colorsMap.get(colorType.getColorIdentifier());
-            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
-                newScheme.setColor((ColorKey)key, colorType.getColor());
-            else {
-                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
-                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
-                    attrs = TextAttributes.fromFlyweight(f);
-                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
-                }
-                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
-                attrs = TextAttributes.fromFlyweight(f);
-                newScheme.setAttributes((TextAttributesKey) key, attrs);
-            }
-            colorType = ccl.yylex();
-        }
-        return newScheme;
-    }
-
-
-    private EditorColorsScheme parseConfigFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
-        Map<String, Comparable> colorsMap = initColorTypeMap();
-        Comparable key;
-        AttributesFlyweight f;
-        TextAttributes attrs;
-        InputStream input = selectedFile.getInputStream();
-        InputStreamReader isr = new InputStreamReader(input);
-        ConfigColorsLexer ccl = new ConfigColorsLexer(isr);
-        ColorType colorType = ccl.yylex();
-        while(colorType != null) {
-            key = colorsMap.get(colorType.getColorIdentifier());
-            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
-                newScheme.setColor((ColorKey)key, colorType.getColor());
-            else {
-                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
-                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
-                    attrs = TextAttributes.fromFlyweight(f);
-                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
-                }
-                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
-                attrs = TextAttributes.fromFlyweight(f);
-                newScheme.setAttributes((TextAttributesKey) key, attrs);
-            }
-            colorType = ccl.yylex();
-        }
-        return newScheme;
-    }
+//    private EditorColorsScheme parseColorschemeFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
+//        Map<String, Comparable> colorsMap = initColorTypeMap();
+//        Comparable key;
+//        AttributesFlyweight f;
+//        TextAttributes attrs;
+//        InputStream input = selectedFile.getInputStream();
+//        InputStreamReader isr = new InputStreamReader(input);
+//        ColorschemeColorsLexer ccl = new ColorschemeColorsLexer(isr);
+//        ColorType colorType = ccl.yylex();
+//        while(colorType != null) {
+//            key = colorsMap.get(colorType.getColorIdentifier());
+//            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
+//                newScheme.setColor((ColorKey)key, colorType.getColor());
+//            else {
+//                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
+//                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
+//                    attrs = TextAttributes.fromFlyweight(f);
+//                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+//                }
+//                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
+//                attrs = TextAttributes.fromFlyweight(f);
+//                newScheme.setAttributes((TextAttributesKey) key, attrs);
+//            }
+//            colorType = ccl.yylex();
+//        }
+//        return newScheme;
+//    }
+//
+//
+//    private EditorColorsScheme parseConfigFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws IOException, SchemeImportException {
+//        Map<String, Comparable> colorsMap = initColorTypeMap();
+//        Comparable key;
+//        AttributesFlyweight f;
+//        TextAttributes attrs;
+//        InputStream input = selectedFile.getInputStream();
+//        InputStreamReader isr = new InputStreamReader(input);
+//        ConfigColorsLexer ccl = new ConfigColorsLexer(isr);
+//        ColorType colorType = ccl.yylex();
+//        while(colorType != null) {
+//            key = colorsMap.get(colorType.getColorIdentifier());
+//            if (colorType.getColorIdentifier().equals(ColorType.BACKGROUND))
+//                newScheme.setColor((ColorKey)key, colorType.getColor());
+//            else {
+//                if (colorType.getColorIdentifier().equals(ColorType.FOREGROUND)) {
+//                    f = AttributesFlyweight.create(colorType.getColor(), null, 0, colorType.getColor(), EffectType.LINE_UNDERSCORE, null);
+//                    attrs = TextAttributes.fromFlyweight(f);
+//                    newScheme.setAttributes(ConsoleViewContentType.ERROR_OUTPUT_KEY, attrs);
+//                }
+//                f = AttributesFlyweight.create(colorType.getColor(), null, 0, null, null, null);
+//                attrs = TextAttributes.fromFlyweight(f);
+//                newScheme.setAttributes((TextAttributesKey) key, attrs);
+//            }
+//            colorType = ccl.yylex();
+//        }
+//        return newScheme;
+//    }
 
 
     private EditorColorsScheme parseItermcolorsFile(VirtualFile selectedFile, EditorColorsScheme newScheme) throws SchemeImportException {

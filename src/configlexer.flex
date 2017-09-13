@@ -18,6 +18,7 @@ import java.awt.*;
 %type ColorType
 %unicode
 %yylexthrow SchemeImportException
+%implements ColorsLexer
 
     SchemeName = "[["~"]]"
     HexColor = [0-9a-f]{6}
