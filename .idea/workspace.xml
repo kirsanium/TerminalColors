@@ -8,13 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b2d72af-8942-4329-a1c4-611ce1b1f1e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ColorschemeColorsLexer.java" afterPath="$PROJECT_DIR$/src/ColorschemeColorsLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConfigColorsLexer.java" afterPath="$PROJECT_DIR$/src/ConfigColorsLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" afterPath="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RegColorsLexer.java" afterPath="$PROJECT_DIR$/src/RegColorsLexer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/colorscheme.flex" afterPath="$PROJECT_DIR$/src/colorscheme.flex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/configlexer.flex" afterPath="$PROJECT_DIR$/src/configlexer.flex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reg.flex" afterPath="$PROJECT_DIR$/src/reg.flex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +28,8 @@
       <file leaf-file-name="ImportConsoleColorScheme.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImportConsoleColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2235">
-              <caret line="173" column="7" lean-forward="true" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
+            <state relative-caret-position="1343">
+              <caret line="173" column="7" lean-forward="false" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
               <folding>
                 <element signature="method#ImportConsoleColorScheme#0;class#ImportConsoleColorScheme#0" expanded="false" />
                 <element signature="e#1393#1401#0" expanded="false" />
@@ -51,14 +45,14 @@
       <file leaf-file-name="reg.flex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reg.flex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorsLexer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColorsLexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ColorsLexer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -68,10 +62,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="103" lean-forward="false" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="colorscheme.flex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/colorscheme.flex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
+            <state relative-caret-position="731">
               <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding />
             </state>
@@ -83,20 +87,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9180">
               <caret line="555" column="34" lean-forward="false" selection-start-line="555" selection-start-column="34" selection-end-line="555" selection-end-column="34" />
-              <folding>
-                <marker date="1505308613239" expanded="false" signature="11587:11594" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="11613:11617" ph=" }" />
-                <marker date="1505308613239" expanded="false" signature="15327:15334" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="15356:15360" ph=" }" />
-                <marker date="1505308613239" expanded="false" signature="15496:15503" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="15529:15533" ph=" }" />
-                <marker date="1505308613239" expanded="false" signature="15643:15650" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="15718:15722" ph=" }" />
-                <marker date="1505308613239" expanded="false" signature="16078:16085" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="16118:16122" ph=" }" />
-                <marker date="1505308613239" expanded="false" signature="16218:16225" ph=" { " />
-                <marker date="1505308613239" expanded="false" signature="16256:16260" ph=" }" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +95,7 @@
       <file leaf-file-name="ConfigColorsLexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConfigColorsLexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10472">
+            <state relative-caret-position="10455">
               <caret line="628" column="24" lean-forward="false" selection-start-line="628" selection-start-column="24" selection-end-line="628" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/configlexer.flex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -194,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/ImportedConsoleColorScheme.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/ImportConsoleColorScheme1.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/../test/src/test.java" />
         <option value="$PROJECT_DIR$/src/ConfigColorsLexer.java" />
         <option value="$PROJECT_DIR$/src/ColorType.java" />
@@ -204,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/configlexer.flex" />
         <option value="$PROJECT_DIR$/src/ColorsLexer.java" />
         <option value="$PROJECT_DIR$/src/ImportConsoleColorScheme.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -261,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,15 +262,27 @@
             <path>
               <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,16 +554,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23190789" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23190789" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23190789" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,6 +581,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -702,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9962">
@@ -819,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="411" column="7" lean-forward="true" selection-start-line="411" selection-start-column="7" selection-end-line="411" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,60 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Map#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#Map#0" expanded="false" />
-            <element signature="docComment;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByKey#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByValue#0;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByKey#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByKey#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#comparingByValue#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="method#comparingByValue#1;class#Entry#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#getOrDefault#0;class#Map#0" expanded="false" />
-            <element signature="method#getOrDefault#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#forEach#0;class#Map#0" expanded="false" />
-            <element signature="method#forEach#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replaceAll#0;class#Map#0" expanded="false" />
-            <element signature="method#replaceAll#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#putIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="method#putIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#remove#1;class#Map#0" expanded="false" />
-            <element signature="method#remove#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replace#0;class#Map#0" expanded="false" />
-            <element signature="method#replace#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#replace#1;class#Map#0" expanded="false" />
-            <element signature="method#replace#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#computeIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="method#computeIfAbsent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#computeIfPresent#0;class#Map#0" expanded="false" />
-            <element signature="method#computeIfPresent#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#compute#0;class#Map#0" expanded="false" />
-            <element signature="method#compute#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#merge#0;class#Map#0" expanded="false" />
-            <element signature="method#merge#0;class#Map#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,29 +912,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/configlexer.flex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reg.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="408">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/colorscheme.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="731">
           <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding />
         </state>
@@ -1007,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImportConsoleColorScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2235">
-          <caret line="173" column="7" lean-forward="true" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
+        <state relative-caret-position="1343">
+          <caret line="173" column="7" lean-forward="false" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
           <folding>
             <element signature="method#ImportConsoleColorScheme#0;class#ImportConsoleColorScheme#0" expanded="false" />
             <element signature="e#1393#1401#0" expanded="false" />
@@ -1024,26 +958,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9180">
           <caret line="555" column="34" lean-forward="false" selection-start-line="555" selection-start-column="34" selection-end-line="555" selection-end-column="34" />
-          <folding>
-            <marker date="1505308613239" expanded="false" signature="11587:11594" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="11613:11617" ph=" }" />
-            <marker date="1505308613239" expanded="false" signature="15327:15334" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="15356:15360" ph=" }" />
-            <marker date="1505308613239" expanded="false" signature="15496:15503" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="15529:15533" ph=" }" />
-            <marker date="1505308613239" expanded="false" signature="15643:15650" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="15718:15722" ph=" }" />
-            <marker date="1505308613239" expanded="false" signature="16078:16085" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="16118:16122" ph=" }" />
-            <marker date="1505308613239" expanded="false" signature="16218:16225" ph=" { " />
-            <marker date="1505308613239" expanded="false" signature="16256:16260" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfigColorsLexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10472">
+        <state relative-caret-position="10455">
           <caret line="628" column="24" lean-forward="false" selection-start-line="628" selection-start-column="24" selection-end-line="628" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1064,6 +985,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="103" lean-forward="false" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
           <folding />
         </state>
       </provider>
