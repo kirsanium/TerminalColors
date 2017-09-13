@@ -2,7 +2,7 @@
   <id>nsu.Kirsanov.Nikita</id>
   <name>TerminalColors</name>
   <version>1.0</version>
-  <vendor email="n.kirsanov@g.nsu.ru">YourCompany</vendor>
+  <vendor email="n.kirsanov@g.nsu.ru">Nikita Kirsanov</vendor>
 
   <description><![CDATA[
       Import your favourite terminal color schemes from PuTTY, Konsole, Terminator, Terminal and iTerm2.
