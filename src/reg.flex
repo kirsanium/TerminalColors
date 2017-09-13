@@ -63,11 +63,9 @@ static {
 
       "\"Colour"                        {yybegin(COLORS);}
       {WhiteSpace}                   { /* ignore */}
-      //{InputCharacter}               { /* ignore */}
       <<EOF>>                        {if (colorAmount != 22)
                                         throw new SchemeImportException("Scheme is not valid");
                                         return null;}
-      //[^]                            { System.out.println(yytext());}
 
     }
 
@@ -113,6 +111,4 @@ static {
     , {/*ignore*/}
     \" {yybegin(YYINITIAL);}
     }
-
-    /* error fallback */
-    //[^]                              { throw new Error("Illegal character <"+yytext()+">"); }
+                  { throw new Error("Illegal character <"+yytext()+">"); }
