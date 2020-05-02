@@ -1,3 +1,5 @@
+package Lexers;
+
 import com.intellij.openapi.options.SchemeImportException;
 
 public interface ColorsLexer {
