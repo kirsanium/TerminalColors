@@ -7,3 +7,5 @@ This plugin adds a new "Import terminal color scheme" button to the scheme impor
 - .reg (PuTTY)
 - .terminal (Terminal)
 - .config (Terminator)
+
+JetBrains Marketplace link: https://plugins.jetbrains.com/plugin/10032-terminalcolors
