@@ -14,6 +14,7 @@ import com.intellij.openapi.options.SchemeImportUtil;
 import com.intellij.openapi.options.SchemeImporter;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.InvalidDataException;
+import com.intellij.openapi.util.NlsContexts;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -40,13 +41,12 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
         return new String[]{"reg", "colorscheme", "config", "itermcolors", "terminal"};
     }
 
-    @Nullable
     @Override
-    public EditorColorsScheme importScheme(
+    public @Nullable EditorColorsScheme importScheme(
             @NotNull Project project,
             @NotNull VirtualFile selectedFile,
             @NotNull EditorColorsScheme currentScheme,
-            @NotNull SchemeFactory<EditorColorsScheme> schemeFactory
+            @NotNull SchemeFactory<? extends EditorColorsScheme> schemeFactory
     ) throws SchemeImportException {
         String currentSchemeName = currentScheme.getName();
         String terminalSchemeName = selectedFile.getNameWithoutExtension();

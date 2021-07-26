@@ -14,7 +14,7 @@
     - Scheme name after import now looks like 'ColorSchemeName+TerminalSchemeName'
   ]]></change-notes>
 
-  <idea-version since-build="145.0"/>
+  <idea-version since-build="172.1909.2"/>
 
   <depends>com.intellij.modules.platform</depends>
 
