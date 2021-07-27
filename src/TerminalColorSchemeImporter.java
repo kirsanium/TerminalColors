@@ -166,14 +166,12 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
             if (!colorsMap.containsKey(ansiKeyName))
                 continue;
 
-            List<Element> colorDictKeys = colorDict.getChildren("key");
-            List<Element> colorDictRGB = colorDict.getChildren("real");
-            Iterator<Element> colorDictKeysIterator = colorDictKeys.iterator();
-            Iterator<Element> colorDictRGBIterator = colorDictRGB.iterator();
+            List<Element> colorDictEntries = colorDict.getChildren();
+            Iterator<Element> colorDictEntriesIterator = colorDictEntries.iterator();
 
-            while (colorDictKeysIterator.hasNext()) {
-                Element colorComponentName = colorDictKeysIterator.next();
-                Element floatNumElem = colorDictRGBIterator.next();
+            while (colorDictEntriesIterator.hasNext()) {
+                Element colorComponentName = colorDictEntriesIterator.next();
+                Element floatNumElem = colorDictEntriesIterator.next();
                 String floatNumStr = floatNumElem.getValue();
                 switch (colorComponentName.getValue()) {
                     case "Blue Component":
