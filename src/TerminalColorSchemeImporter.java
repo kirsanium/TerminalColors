@@ -14,6 +14,7 @@ import com.intellij.openapi.options.SchemeImportUtil;
 import com.intellij.openapi.options.SchemeImporter;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.InvalidDataException;
+import com.intellij.openapi.util.NlsContexts;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -40,13 +41,12 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
         return new String[]{"reg", "colorscheme", "config", "itermcolors", "terminal"};
     }
 
-    @Nullable
     @Override
-    public EditorColorsScheme importScheme(
+    public @Nullable EditorColorsScheme importScheme(
             @NotNull Project project,
             @NotNull VirtualFile selectedFile,
             @NotNull EditorColorsScheme currentScheme,
-            @NotNull SchemeFactory<EditorColorsScheme> schemeFactory
+            @NotNull SchemeFactory<? extends EditorColorsScheme> schemeFactory
     ) throws SchemeImportException {
         String currentSchemeName = currentScheme.getName();
         String terminalSchemeName = selectedFile.getNameWithoutExtension();
@@ -62,6 +62,7 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
                     newScheme = parseRegConfigColorschemeFile(selectedFile, currentGlobalScheme, schemeExtension);
                 } catch (IOException e) {
                     e.printStackTrace();
+                    throw new SchemeImportException(e);
                 }
                 break;
             case "itermcolors":
@@ -123,7 +124,14 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
                 if (colorIdentifier.equals(ColorType.FOREGROUND)) {
                     setErrorOutputTextAttributes(newScheme, color);
                 }
-                setTextAttributesByKey(newScheme, (TextAttributesKey) key, color);
+                boolean isAnsi = false;
+                for (String colorName: ColorType.ANSI) {
+                    if (colorIdentifier.equals(colorName)) {
+                        isAnsi = true;
+                        break;
+                    }
+                }
+                if (isAnsi) setTextAttributesByKey(newScheme, (TextAttributesKey) key, color);
             }
             colorType = colorsLexer.yylex();
         }
@@ -166,14 +174,12 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
             if (!colorsMap.containsKey(ansiKeyName))
                 continue;
 
-            List<Element> colorDictKeys = colorDict.getChildren("key");
-            List<Element> colorDictRGB = colorDict.getChildren("real");
-            Iterator<Element> colorDictKeysIterator = colorDictKeys.iterator();
-            Iterator<Element> colorDictRGBIterator = colorDictRGB.iterator();
+            List<Element> colorDictEntries = colorDict.getChildren();
+            Iterator<Element> colorDictEntriesIterator = colorDictEntries.iterator();
 
-            while (colorDictKeysIterator.hasNext()) {
-                Element colorComponentName = colorDictKeysIterator.next();
-                Element floatNumElem = colorDictRGBIterator.next();
+            while (colorDictEntriesIterator.hasNext()) {
+                Element colorComponentName = colorDictEntriesIterator.next();
+                Element floatNumElem = colorDictEntriesIterator.next();
                 String floatNumStr = floatNumElem.getValue();
                 switch (colorComponentName.getValue()) {
                     case "Blue Component":
