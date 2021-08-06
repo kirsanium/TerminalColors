@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>nsu.Kirsanov.Nikita</id>
   <name>TerminalColors</name>
-  <version>1.1</version>
+  <version>1.2</version>
   <vendor email="n.kirsanov@g.nsu.ru">Nikita Kirsanov</vendor>
 
   <description><![CDATA[
