@@ -44,17 +44,20 @@ static {
 %yylexthrow SchemeImportException
 %implements ColorsLexer
 
-    DecColor = [0-9] | [1-9][0-9] | 1[0-9][0-9] | 2[0-4][0-9] | 25[0-5]
-    ColorNumber = [0-7] ("Intense")?
-    ColorName = ("Background" ("Intense")? | "Foreground" ("Intense")? | "Color" {ColorNumber}) "]"
-    LineTerminator = \r|\n|\r\n
-    InputCharacter = [^\r\n]
-    WhiteSpace     = {LineTerminator} | [ \t\f]
-    OpFloat        = "0" (\.[0-9]+)? | "1"
-    Description    = "Description=" {InputCharacter}* {WhiteSpace}
-    Opacity        = "Opacity=" {OpFloat} {LineTerminator}
-    Wallpaper      = "Wallpaper=" {InputCharacter}* {WhiteSpace}
-    WrongSequence  = "Color=" {DecColor} "," {DecColor} "," {DecColor}
+    DecColor           = [0-9] | [1-9][0-9] | 1[0-9][0-9] | 2[0-4][0-9] | 25[0-5]
+    Modifier           = ("Intense"|"Faint")
+    ColorNumber        = [0-7] ({Modifier})?
+    ColorName          = ("Background" ({Modifier})? | "Foreground" ({Modifier})? | "Color" {ColorNumber}) "]"
+    LineTerminator     = \r|\n|\r\n
+    InputCharacter     = [^\r\n]
+    WhiteSpace         = {LineTerminator} | [ \t\f]
+    OpFloat            = "0" (\.[0-9]+)? | "1"
+    Description        = "Description=" {InputCharacter}* {WhiteSpace}
+    Opacity            = "Opacity=" {OpFloat} {LineTerminator}
+    Wallpaper          = "Wallpaper=" {InputCharacter}* {WhiteSpace}
+    Blur               = "Blur=" {InputCharacter}* {WhiteSpace}
+    ColorRandomization = "ColorRandomization=" {InputCharacter}* {WhiteSpace}
+    WrongSequence      = "Color=" {DecColor} "," {DecColor} "," {DecColor}
 
 %state COLORS
 %state READINGMODE, GENERALMODE
@@ -64,9 +67,8 @@ static {
     <YYINITIAL> {
       \[                                {yybegin(COLORS);}
       {WhiteSpace} {/*ignore*/}
-      <<EOF>>                        {if (colorAmount != 20)
-                                              throw new SchemeImportException("Scheme is not valid");
-                                              return null;}
+      <<EOF>>                        {return null;}
+      {InputCharacter} {/*ignore*/}
     }
 
     <COLORS> {
@@ -81,10 +83,14 @@ static {
     }
 
     <GENERALMODE> {
+        {LineTerminator}{LineTerminator} {yybegin(YYINITIAL);}
         {WhiteSpace} {/*ignore*/}
-        {Description} {generalCounter++; if (generalCounter == 3) yybegin(YYINITIAL);}
-        {Opacity} {generalCounter++; if (generalCounter == 3) yybegin(YYINITIAL);}
-        {Wallpaper} {generalCounter++; if (generalCounter == 3) yybegin(YYINITIAL);}
+        {Description} {/*ignore*/}
+        {Opacity} {/*ignore*/}
+        {Wallpaper} {/*ignore*/}
+        {Blur} {/*ignore*/}
+        {ColorRandomization} {/*ignore*/}
+        <<EOF>> {yybegin(YYINITIAL);}
     }
 
     <READINGMODE>

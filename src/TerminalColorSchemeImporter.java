@@ -62,6 +62,7 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
                     newScheme = parseRegConfigColorschemeFile(selectedFile, currentGlobalScheme, schemeExtension);
                 } catch (IOException e) {
                     e.printStackTrace();
+                    throw new SchemeImportException(e);
                 }
                 break;
             case "itermcolors":
@@ -123,7 +124,14 @@ public class TerminalColorSchemeImporter implements SchemeImporter<EditorColorsS
                 if (colorIdentifier.equals(ColorType.FOREGROUND)) {
                     setErrorOutputTextAttributes(newScheme, color);
                 }
-                setTextAttributesByKey(newScheme, (TextAttributesKey) key, color);
+                boolean isAnsi = false;
+                for (String colorName: ColorType.ANSI) {
+                    if (colorIdentifier.equals(colorName)) {
+                        isAnsi = true;
+                        break;
+                    }
+                }
+                if (isAnsi) setTextAttributesByKey(newScheme, (TextAttributesKey) key, color);
             }
             colorType = colorsLexer.yylex();
         }
